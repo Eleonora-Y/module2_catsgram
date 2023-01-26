@@ -12,7 +12,7 @@ public class Post {
     public Post(String author, String description, String photoUrl) {
         this.author = author;
         this.description = description;
-        this.photoUrl = photoUrl;
+      this.photoUrl = photoUrl;
     }
 
     public String getAuthor() {
@@ -31,7 +31,7 @@ public class Post {
         this.description = description;
     }
 
-    public String getPhotoUrl() {
+   public String getPhotoUrl() {
         return photoUrl;
     }
 
